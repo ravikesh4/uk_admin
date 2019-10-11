@@ -23,12 +23,40 @@
     font-family: 'Product Sans', serif !important;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 .nav-color {
-    background-color: #055e63;
+    /* background-color: #067b81; */
+    background: linear-gradient(to right, #2f22e6 0%, #0d0058 100%);
+    /* background: linear-gradient(to right, #140113 50%, #04eeee 100%); */
+    
+    /* background-color: white; */
 }
 
 .nav-app {
     font-size: 17px;
+}
+
+.icon-color {
+    color: black;
 }
 
 .left-nav {
@@ -56,9 +84,6 @@
     padding-top: 20px;
     
 }
-.scroll-left {
-
-    }
 
 .email-card {
     background-color: white;
