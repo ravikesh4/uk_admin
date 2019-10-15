@@ -44,11 +44,7 @@
   }
 
 .nav-color {
-    /* background-color: #067b81; */
     background: linear-gradient(to right, #2f22e6 0%, #0d0058 100%);
-    /* background: linear-gradient(to right, #140113 50%, #04eeee 100%); */
-    
-    /* background-color: white; */
 }
 
 .nav-app {
@@ -89,4 +85,11 @@
     background-color: white;
     padding: 8%;
     border-radius: 1%;
+}
+
+@media screen and (max-width: 960px) {
+    /* .card-left {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    } */
 }
